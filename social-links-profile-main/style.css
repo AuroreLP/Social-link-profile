@@ -1,0 +1,154 @@
+html{
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%)
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.container {
+    width: 327px;
+    height: 579px;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 24px;
+    width: 88px;
+}
+
+.presentation {
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.presentation h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 2.4rem;
+    font-weight: 600;
+    height: 36px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 1.4rem;
+    font-weight: 700;
+    height: 21px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.catchy {
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.catchy h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.buttons {
+    margin-top: 24px;
+}
+
+.button {
+    width: 279px;
+    height: 45px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 1.4rem;
+
+}
+
+
+.button.github,
+.button.frontend,
+.button.linkedin,
+.button.twitter {
+    margin-bottom: 16px;
+}
+
+.button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    font-weight: 700;
+    cursor: url("./assets/images/handcursor.svg"), auto;
+    transition : transform 400ms;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+    margin-top: 10px;
+}
+
+.attribution a { color: white; }
+
+@media (min-width:600px) {
+    .container {
+        width: 456px;
+        height: 611px;
+    }
+
+    .card {
+        padding: 40px;
+    }
+
+    .button.github,
+.button.frontend,
+.button.linkedin,
+.button.twitter,
+.button.instagram {
+    width: 376px;
+}
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 384px;
+        height: 611px;
+    }
+
+    .card {
+        padding: 40px;
+    }
+
+    .button.github,
+.button.frontend,
+.button.linkedin,
+.button.twitter,
+.button.instagram {
+    width: 304px;
+}
+}
