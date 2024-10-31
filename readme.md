@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [Github link](https://github.com/AuroreLP/Social-link-profile/tree/main)
-- Live Site URL: [Social link profile live URL]([https://aurorelp.github.io/Social-link-profile/](https://aurorelp.github.io/Social-link-profile/))
+- Live Site URL: [Social link profile live URL]((https://aurorelp.github.io/Social-link-profile/))
 
 ## My process
 
